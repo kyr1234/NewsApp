@@ -1,9 +1,13 @@
-import React from "react";
-
-export default function App() {
-  return (
-    <div className="app">
-      <h3>HELLO </h3>
-    </div>
-  );
+import React, { Component } from "react";
+import Navbar from "./Components/Navbar";
+import News from "./Components/News";
+export default class App extends Component {
+  render() {
+    return (
+      <div className="app">
+        <Navbar />
+        <News />
+      </div>
+    );
+  }
 }
