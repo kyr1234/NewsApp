@@ -1,2 +1,2 @@
-# NewsApp
+# basics
 Created with CodeSandbox
