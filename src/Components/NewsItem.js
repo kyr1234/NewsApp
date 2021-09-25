@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./NewsItem";
 
 export default class NewsItem extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class NewsItem extends Component {
       <div className="NewsItem">
         <div className="card" style={{ width: "18rem" }}>
           <img
-            className="card-img-top"
+            className="card-img-top "
             alt="Images"
             src={
               !imgurl
